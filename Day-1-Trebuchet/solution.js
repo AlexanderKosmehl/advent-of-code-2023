@@ -2,7 +2,7 @@ import { readFileSync } from 'fs'
 
 // const filePath = './input-example.txt'
 // const filePath = './input-example-advanced.txt'
-const filePath = './input-1.txt'
+const filePath = './input.txt'
 
 const inputFile = readFileSync(new URL(filePath, import.meta.url), { encoding: 'utf-8' })
 const inputLines = inputFile.split(/\r?\n/)
